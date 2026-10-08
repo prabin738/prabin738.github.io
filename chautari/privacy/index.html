@@ -4,64 +4,170 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chautari Privacy Policy</title>
+<meta name="description" content="How the Chautari card game app collects, uses, shares and deletes your information.">
 <style>
-  :root { --bg:#f7f5ef; --fg:#1d2a22; --muted:#55645a; --accent:#1f4d36; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#13201a; --fg:#eef1ec; --muted:#a9b6ad; --accent:#e3b84a; } }
+  :root { --bg:#f7f5ef; --fg:#1d2a22; --muted:#55645a; --accent:#1f4d36; --line:#dcd8cc; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#13201a; --fg:#eef1ec; --muted:#a9b6ad; --accent:#e3b84a; --line:#2c3d33; } }
   body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
   main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
   h1 { font-size:1.9rem; margin:0 0 4px; color:var(--accent); }
-  h2 { font-size:1.15rem; margin:28px 0 8px; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; }
+  h3 { font-size:1rem; margin:20px 0 6px; }
   p, li { color:var(--fg); }
   .muted { color:var(--muted); }
   a { color:var(--accent); }
-  ul { padding-left:20px; }
+  ul, ol { padding-left:20px; }
+  .table { overflow-x:auto; margin:8px 0 16px; }
+  table { border-collapse:collapse; width:100%; font-size:.95rem; }
+  th, td { text-align:left; vertical-align:top; padding:8px 10px; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-weight:600; }
+  nav.toc { margin:20px 0; }
+  nav.toc ol { margin:0; }
 </style>
 </head>
 <body>
 <main>
   <p><a href="../">&larr; Chautari</a></p>
   <h1>Privacy Policy</h1>
-  <p class="muted">Last updated: 6 October 2026</p>
+  <p class="muted">Effective date: 8 October 2026 &middot; Last updated: 8 October 2026</p>
 
-  <p>Chautari is a free Nepali card game app (Marriage, Dhumbal, Hajaari and more) made by Prabin Singh Thakuri. This policy explains what information the app uses and why.</p>
+  <p>Chautari is a free Nepali card game app (Marriage, Dhumbal, Hajaari and more) for Android, package <code>com.prabin.chautari</code>. It is made by Prabin Singh Thakuri (&ldquo;we&rdquo;, &ldquo;us&rdquo;), who is responsible for your information. This policy explains what information the app and its servers collect, why, who we share it with, how long we keep it, and how you can delete it.</p>
 
-  <h2>Coins are not real money</h2>
-  <p>Coins in Chautari are virtual and only for fun. They cannot be bought, sold, withdrawn or exchanged for money or prizes.</p>
+  <nav class="toc">
+    <ol>
+      <li><a href="#coins">Coins are not real money</a></li>
+      <li><a href="#collect">What we collect</a></li>
+      <li><a href="#use">How we use it</a></li>
+      <li><a href="#share">Who we share it with</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#retention">How long we keep it</a></li>
+      <li><a href="#delete">Deleting your account and data</a></li>
+      <li><a href="#rights">Your choices and rights</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#changes">Changes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
 
-  <h2>What we collect</h2>
+  <h2 id="coins">1. Coins are not real money</h2>
+  <p>Coins in Chautari are virtual and only for fun. They cannot be bought, sold, withdrawn or exchanged for money or prizes. The app has no in-app purchases and shows no ads.</p>
+
+  <h2 id="collect">2. What we collect</h2>
+
+  <h3>Information you give us</h3>
+  <div class="table"><table>
+    <tr><th>Information</th><th>When</th><th>Why</th></tr>
+    <tr><td>Display name</td><td>You choose or edit it. If you sign in with Google, we start with the first word of your Google name.</td><td>To show your profile</td></tr>
+    <tr><td>Avatar</td><td>You pick one of our preset pictures. We do not accept photo uploads.</td><td>To show your profile</td></tr>
+    <tr><td>Location (optional)</td><td>Text you may type on your profile, such as a city</td><td>To show on your profile</td></tr>
+    <tr><td>Phone number</td><td>Asked for after you sign in with Google</td><td>Account recovery and support. It is never shown to other players.</td></tr>
+    <tr><td>Language</td><td>You pick English or Nepali</td><td>To show the app in your language</td></tr>
+    <tr><td>Invite code</td><td>When you redeem a friend&rsquo;s invite</td><td>To give you both the invite reward</td></tr>
+  </table></div>
+
+  <h3>Google sign-in (optional)</h3>
+  <p>If you sign in with Google, Google gives us your Google account ID, your email address (only if Google has verified it) and your name. We use them to create your account and help you recover it. We never see your Google password.</p>
+
+  <h3>Information created when you play</h3>
   <ul>
-    <li><strong>Guest play:</strong> a random key created on your device, which we store only in hashed form, so you can come back to the same account without signing in.</li>
-    <li><strong>Google sign-in (optional):</strong> your Google account ID, your Google-verified email address and your name. The email is kept only to help recover your account.</li>
-    <li><strong>Profile details you choose to add:</strong> display name, avatar, location, phone number and language.</li>
-    <li><strong>Game data:</strong> your coin balance, level (XP), daily bonus time and a history of coin changes.</li>
+    <li><strong>Account IDs:</strong> an 8-digit Player ID, an invite code and an internal account ID.</li>
+    <li><strong>Guest key:</strong> if you play as a guest, the app creates a random key on your device. We store only a one-way hash of it, so your phone can return to the same account without signing in.</li>
+    <li><strong>Game data:</strong> coin balance, level (XP), daily bonus time, invite rewards, a history of coin changes, and records of your games against computer players (including the moves played).</li>
   </ul>
-  <p>We do not collect your contacts, photos, precise location or payment details. The app shows no ads and has no third-party analytics or advertising trackers.</p>
 
-  <h2>How we use it</h2>
+  <h3>Information collected automatically</h3>
   <ul>
-    <li>To run your account, keep your coins and level, and let you play.</li>
+    <li><strong>App analytics:</strong> we use Google Analytics for Firebase to understand how the app is used. It records events such as screens opened, sign-up and login method, games started and finished, game settings and coin results, invites shared and notifications opened. Firebase also collects an app-instance ID, device model, Android version, app version and your approximate country (worked out from your IP address). We do not send your name, email or phone number to Firebase Analytics.</li>
+    <li><strong>Notification token:</strong> if you allow notifications, Firebase Cloud Messaging gives your device a token that we store so we can send game reminders and bonus alerts.</li>
+    <li><strong>Install referrer:</strong> if you install the app from a friend&rsquo;s invite link, Google Play tells the app which invite link was used, so the invite can be credited.</li>
+    <li><strong>Network information:</strong> our server sees your IP address when the app connects. We use it only briefly, in memory, to block abuse (rate limiting), and do not save it in our database. Our hosting provider may keep standard request logs for a short time.</li>
+  </ul>
+
+  <h3>Bug reports you choose to send</h3>
+  <p>&ldquo;Report a bug&rdquo; opens WhatsApp with a ready-made message. It includes the app version, Android version, device maker and model, memory, screen size, language, your Player ID, account ID and account type. You can read it first, and nothing is sent unless you press Send. WhatsApp&rsquo;s privacy policy applies to that message.</p>
+
+  <h3>What we do not collect</h3>
+  <p>We do not collect passwords, precise (GPS) location, contacts, photos, files, camera or microphone input, or payment details. Chautari has no in-app chat.</p>
+
+  <h2 id="use">3. How we use it</h2>
+  <ul>
+    <li>To create, run and recover your account.</li>
+    <li>To run games, keep your coins and level, and give daily bonuses and invite rewards.</li>
     <li>To show your display name and avatar to other players at the table.</li>
-    <li>To keep the game fair and prevent abuse.</li>
+    <li>To send notifications you have allowed. You can turn them off in your phone&rsquo;s settings at any time.</li>
+    <li>To understand how the app is used and to fix problems (analytics).</li>
+    <li>To keep the game fair, and to prevent cheating, abuse and attacks on our servers.</li>
+    <li>To answer your support requests and bug reports.</li>
+    <li>To meet legal obligations.</li>
   </ul>
-  <p>We never sell your information or share it for advertising.</p>
+  <p>We never sell your information. We do not use it for advertising or share it with advertisers.</p>
 
-  <h2>Who processes it</h2>
-  <p>Your data is stored on our servers and database hosting providers, who keep it on our behalf. Google sign-in is provided by Google under <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>. We may disclose information if the law requires it.</p>
+  <h2 id="share">4. Who we share it with</h2>
+  <p>We share information only with service providers who process it for us to run Chautari, under their own privacy and security terms:</p>
+  <div class="table"><table>
+    <tr><th>Provider</th><th>What it does for us</th><th>Information involved</th></tr>
+    <tr><td><a href="https://firebase.google.com/support/privacy" rel="noopener">Google Firebase</a></td><td>App analytics and push notifications</td><td>Analytics events, app-instance ID, device details, notification token</td></tr>
+    <tr><td><a href="https://policies.google.com/privacy" rel="noopener">Google Sign-In and Google Play</a></td><td>Optional sign-in; invite link tracking</td><td>Google ID token; install referrer</td></tr>
+    <tr><td><a href="https://render.com/privacy" rel="noopener">Render</a></td><td>Hosts our game server (Singapore)</td><td>Everything the app sends to our server</td></tr>
+    <tr><td><a href="https://www.mongodb.com/legal/privacy/privacy-policy" rel="noopener">MongoDB Atlas</a></td><td>Stores our database</td><td>Account and game data</td></tr>
+    <tr><td><a href="https://www.whatsapp.com/legal/privacy-policy" rel="noopener">WhatsApp</a></td><td>Bug reports you choose to send</td><td>The bug report message</td></tr>
+  </table></div>
+  <p>Your phone number and email address are never shown to other players. We may also disclose information if the law requires it, to protect the safety or rights of our players or others, or if Chautari is transferred to a new owner, who would then have to follow this policy.</p>
+  <p>These providers may store or process data outside your country, including in Singapore and other countries where Google, Render and MongoDB operate.</p>
 
-  <h2>Security</h2>
-  <p>Data is sent over encrypted connections (HTTPS). Device keys are stored only as hashes.</p>
+  <h2 id="security">5. Security</h2>
+  <ul>
+    <li>All data between the app and our servers is sent over encrypted connections (HTTPS).</li>
+    <li>Your sign-in session is kept in your phone&rsquo;s secure storage (Android Keystore).</li>
+    <li>Guest keys are stored only as one-way hashes.</li>
+    <li>Only the developer can access the database and servers, using protected accounts.</li>
+  </ul>
+  <p>No system is completely secure, but we work to protect your information and will act quickly if we learn of a problem.</p>
 
-  <h2>Deleting your account</h2>
-  <p>You can delete your account at any time in the app: open <strong>Profile &rarr; Delete account</strong>. This permanently deletes your profile, coins, level and coin history from our servers. If you can't open the app, email us from your Google account's email address and we will delete it for you.</p>
+  <h2 id="retention">6. How long we keep it</h2>
+  <div class="table"><table>
+    <tr><th>Information</th><th>Kept for</th></tr>
+    <tr><td>Account, profile, coins, coin history and game records</td><td>Until you delete your account</td></tr>
+    <tr><td>Notification tokens</td><td>Until you delete your account, or sooner if the token stops working</td></tr>
+    <tr><td>Firebase Analytics data</td><td>Up to 14 months, then deleted automatically</td></tr>
+    <tr><td>Hosting provider request logs</td><td>A short period set by the provider</td></tr>
+    <tr><td>Support emails and bug reports</td><td>Up to 12 months after the issue is closed</td></tr>
+  </table></div>
+  <p>If you play as a guest and uninstall the app without deleting your account, the account stays on our servers but can&rsquo;t be reached from a new install. You can ask us to delete it using your Player ID (see below).</p>
 
-  <h2>Children</h2>
+  <h2 id="delete">7. Deleting your account and data</h2>
+  <p>You can delete your account and its data at any time.</p>
+  <p><strong>In the app:</strong> open <strong>Profile &rarr; Delete account</strong> and confirm. Your account is deleted straight away.</p>
+  <p><strong>Without the app:</strong> follow the steps on our <a href="../delete-account/">account deletion page</a>, or email <a href="mailto:prabinsingh750@gmail.com?subject=Delete%20my%20Chautari%20account">prabinsingh750@gmail.com</a> with the subject &ldquo;Delete my Chautari account&rdquo;. Include the Google email you signed in with, or your Player ID if you played as a guest. We delete the account within 30 days and email you to confirm.</p>
+  <p><strong>What we delete:</strong> your profile (display name, avatar, location, language), email, phone number, Google account ID, guest key, Player ID, invite code, coins, level, coin history, game records, invite links and notification tokens.</p>
+  <p><strong>What may remain for a limited time:</strong></p>
+  <ul>
+    <li>Firebase Analytics data, which is not linked to your name, email or phone, until it expires (up to 14 months).</li>
+    <li>Database backups, which are overwritten within 30 days.</li>
+    <li>Anything we must keep by law, only for as long as the law requires.</li>
+  </ul>
+  <p>Deleting your account can&rsquo;t be undone, and your coins and progress can&rsquo;t be restored.</p>
+
+  <h2 id="rights">8. Your choices and rights</h2>
+  <ul>
+    <li>Change your display name, avatar, location and language in <strong>Profile</strong>.</li>
+    <li>Turn notifications off in your phone&rsquo;s settings.</li>
+    <li>Delete your account as described above.</li>
+    <li>Email us to see, correct or get a copy of your information, or to object to how we use it. We reply within 30 days.</li>
+  </ul>
+  <p>Depending on where you live, you may also have the right to complain to your local data protection authority.</p>
+
+  <h2 id="children">9. Children</h2>
   <p>Chautari is not directed at children under 13, and we do not knowingly collect information from them. If you believe a child has given us information, contact us and we will delete it.</p>
 
-  <h2>Changes</h2>
-  <p>If this policy changes, we will update this page and the date above.</p>
+  <h2 id="changes">10. Changes</h2>
+  <p>If this policy changes, we will update this page and the date above. For important changes, we will also tell you in the app before they take effect.</p>
 
-  <h2>Contact</h2>
-  <p>Prabin Singh Thakuri<br><a href="mailto:prabinsingh750@gmail.com">prabinsingh750@gmail.com</a></p>
+  <h2 id="contact">11. Contact</h2>
+  <p>Prabin Singh Thakuri<br>
+    Email: <a href="mailto:prabinsingh750@gmail.com">prabinsingh750@gmail.com</a><br>
+    WhatsApp: <a href="https://wa.me/9779866498278" rel="noopener">+977 9866498278</a><br>
+    Account deletion: <a href="../delete-account/">prabin738.github.io/chautari/delete-account/</a></p>
 </main>
 </body>
 </html>
